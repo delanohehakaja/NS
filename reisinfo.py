@@ -1,9 +1,14 @@
-import requests
-import logging
-import xmltodict
-from datetime import datetime, timedelta
-from tkinter import *
-from tkinter import messagebox
+Import requests  = het ophalen van informatie van de website.
+Import logging = geeft je informatie over wat er goed of fout gaat.
+import xmltodict = haalt informatie van website, en zet het om in een xml bestand.
+(datetime) = een module waarmee je de tijd kan bepalen en/of aanpassen.
+(timedelta) = dat je de tijd kan berekenen tussen twee verschillende data’s in microsecondes.
+from datetime import datetime, timedelta = dat je deze twee data tijden uit de library haalt.
+(tkinter) = een standaard grafische interface van python. 
+from tkinter import * = dat je al het informatie van de standaard grafisch interface selecteert. 
+(messagebox) = dat je een melding op je scherm krijgt bv: een foutmelding.
+from tkinter import messagebox = dus uit tk-inter wordt een functie/code geïmporteerd. 
+
 
 xml_file = 'reisinfo.xml'
 api_key = ('brahim.asdaou@student.hu.nl', 'KNZYQ_8TBr24vRmUm7UYUDDx_hz0ybxtAks_2_t5V1_eZvzwSM_RyQ')
